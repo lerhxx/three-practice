@@ -60,4 +60,6 @@ uniform[1-4][fi][v]()          指定 uniform 变量的值
 		])
 	gl.texImage2D(gl.TEXTURE_2D, level, width, height, 0, gl.RGBA, gl.UNSIGNED_BYTE, data);
 ```
+## 帧缓存
 
+只是保存状态（附件列表）
